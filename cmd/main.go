@@ -1,11 +1,12 @@
 package main
 
 import (
-	// "bot/bot"
-	"fmt"
-	// "github.com/bwmarrin/discordgo"
+	"GoLearningBot/bot"
 )
 
 func main() {
-	fmt.Println("Hello World")
+	bot.Run()
+	// commands.Ping(s*discordgo.Session, m*discordgo.MessageCreate)
 }
+
+// initial stage of the bot runs the session config in bot.go file in "GoLearningBot/bot" package and is initialized from main go file.

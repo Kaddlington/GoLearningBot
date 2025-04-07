@@ -1,0 +1,5 @@
+.idea
+# JetBrains GoLand IDE data.
+
+.env
+# ENV secret file which will house the Bot Token.
